@@ -14,7 +14,7 @@ COPY ./envs/.env.development /app/envs/.env.development
 COPY ./docs/ENV.md /app/docs/ENV.md
 
 # Use curl to download the file from GitHub
-RUN curl -o validate_env.sh https://raw.githubusercontent.com/fonytas/env-validator/main/validate_env.sh
+RUN curl -o validate_env.sh https://raw.githubusercontent.com/fonytas/env-validator/main/validate_env2.sh
 
 # add execute permissions to the file
 RUN chmod +x validate_env.sh
